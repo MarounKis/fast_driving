@@ -1,0 +1,250 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav_size {
+  --bs-navbar-padding-y: 7px;
+  --bs-navbar-brand-padding-y: 0;
+  background-color: #152245;
+}
+
+.main_button {
+  background-color: #d89a2b;
+  border: #d89a2b;
+  border-radius: 25px;
+  width: 140px;
+  --bs-btn-hover-bg: #e1ad54;
+}
+
+.nav_color {
+  --bs-nav-link-color: white;
+}
+.footer_color {
+  background-color: #152245;
+  --bs-gutter-x: 0;
+  height: 180px;
+}
+
+.big_logo {
+  padding: 30px 0px;
+}
+
+.my_block {
+  height: 100%;
+  padding-top: -60px !important;
+}
+
+.block_1 {
+  background-image: url("./../pics/main_pic_1.jpeg");
+  height: 100%;
+  width: 100%;
+  margin-top: -60px !important;
+  padding-top: 60px !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+}
+
+.section_scrooll {
+  scroll-snap-align: start;
+}
+
+.block_2 {
+  background-image: url("./../pics/about\ us.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -180px !important;
+  padding-bottom: 180px !important;
+}
+
+.facts {
+  background-color: #152245;
+}
+
+.facts_color_1 {
+  color: #ffd892;
+}
+
+.facts_color_2 {
+  color: #d89a2b;
+}
+
+.position_1 {
+  padding-top: 30%;
+}
+
+.big_button {
+  width: fit-content;
+}
+.facts_p {
+  margin-bottom: 0;
+  margin-top: 7px;
+}
+
+.service_block_1 {
+  background-image: url("./../pics/main_pic_2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  width: 100%;
+  --bs-gutter-x: 0;
+  margin-top: -60px !important;
+  padding-top: 60px !important;
+}
+
+.position_2 {
+  padding-top: 50%;
+}
+
+.table_footer {
+  margin-bottom: -180px !important;
+  padding-bottom: 180px !important;
+}
+
+.table_color {
+  --bs-table-bg: #58668d;
+}
+
+.contact_block_1 {
+  background-image: url("./../pics/main_pic_3.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30%;
+  width: 100%;
+  --bs-gutter-x: 0;
+  margin-top: -60px !important;
+  padding-top: 60px !important;
+}
+
+.li_contacts {
+  list-style-type: none;
+}
+
+.contact_footer {
+  margin-bottom: -180px !important;
+  padding-bottom: 180px !important;
+}
+
+.footer_border {
+  border-color: #d5e3ef;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #152245;
+}
+
+@import url("https://fonts.googleapis.com");
+@import url('https://fonts.gstatic.com" crossorigin');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.facts_position {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.position_blocks {
+  position: relative;
+}
+
+.about_us_text_position {
+  position: absolute;
+  bottom: 40%;
+  width: 100%;
+}
+
+.title_position_1{
+        position: absolute;
+        bottom: 40%;
+        width: 100%;
+      
+}
+
+.form_position{
+    padding-left: 200px ;
+    padding-right: 200px;
+}
+
+.button_position{
+    padding-left: 200px;
+}
+.text_position3{
+  position: absolute;
+  width: 100%;
+  bottom: 3%;
+}
+
+.text_position2{
+  position: absolute;
+  width: 100%;
+  bottom: 3%;
+}
+
+.row{
+  --bs-gutter-x: 0px !important;
+}

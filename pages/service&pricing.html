@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <title>Service&Pricing</title>
+    <meta charset="utf-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./../style/home_page.css" />
+  </head>
+
+  <body>
+    <header class="section_scrooll ">
+      <nav class="px-5 nav_size navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./../index.html"
+            ><svg
+              width="142"
+              height="46"
+              viewBox="0 0 142 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line
+                x1="60.25"
+                y1="3"
+                x2="60.25"
+                y2="47"
+                stroke="#E5E5E5"
+                stroke-width="0.5"
+              />
+              <path
+                d="M21.6247 3.04171L11.92 8.49543L9.70477 17.7264L14.2004 9.81344L31.2609 6.57639L31.2625 6.60035L31.3368 6.562L31.1185 4.41136L36.6038 6.54306V15.2616L31.7514 14.0359L9.70477 17.7264L1.68779 19.8376V28.6289L5.48531 27.9543V30.445L1.68779 30.4652L0 30.4742V42.0907L0.421947 43.5852L3.37557 47.1562H9.70477L9.70067 47.147L9.70783 47.1562L11.8176 45.2139L12.3391 42.0907H23.7345L24.1564 43.5852L27.11 47.1562H33.4392L35.549 45.2139L36.0705 42.0907H36.6038H39.9794V2.54993L37.5532 0L21.6247 3.04171ZM34.4497 33.071L34.7694 35.5304V35.7851V38.2632V38.7778L34.3697 41.1716L33.5703 41.9076L32.8507 40.9773L32.531 38.5179V38.2632V35.7851V35.2704L32.9016 33.0511L32.9307 32.8767L33.7301 32.1406L34.2919 32.867L34.4497 33.071ZM29.3253 30.318L21.6247 30.359L21.6284 27.0165L31.7514 27.8757L29.3253 30.318Z"
+                fill="#D89A2B"
+              />
+              <path
+                d="M42.4056 7.07075V42.0907H45.8454L46.0508 42.8181L47.7579 44.882H51.4159L52.6352 43.7594L52.9139 42.0907H56.6463V22.5236V22.269L42.4056 7.07075ZM51.9999 36.7413L52.1847 38.1627V38.3099V39.7422V40.0396L51.9537 41.4231L51.4917 41.8485L51.0758 41.3108L50.891 39.8894V39.7422V38.3099V38.0124L51.1052 36.7298L51.122 36.629L51.5841 36.2036L51.9087 36.6234L51.9999 36.7413Z"
+                fill="#D89A2B"
+              />
+              <path
+                d="M65.235 9.26C65.5017 9.24 65.7184 9.20667 65.885 9.16C66.0584 9.11333 66.2084 9.03667 66.335 8.93C66.4617 8.83 66.5917 8.68667 66.725 8.5L67.015 8.11L66.145 2.76H67.515L67.965 6.84L68.305 6.28C68.5117 5.94 68.6917 5.62333 68.845 5.33C69.005 5.03 69.1417 4.74333 69.255 4.47C69.375 4.19 69.4784 3.91 69.565 3.63C69.6517 3.35 69.7317 3.06 69.805 2.76H71.105C71.0184 3.08 70.9217 3.38333 70.815 3.67C70.7084 3.95 70.5817 4.24333 70.435 4.55C70.2884 4.85667 70.1017 5.20333 69.875 5.59C69.655 5.97667 69.3784 6.43667 69.045 6.97L68.245 8.26C68.0117 8.63333 67.785 8.94667 67.565 9.2C67.3517 9.46 67.1317 9.67 66.905 9.83C66.685 9.99 66.4517 10.1033 66.205 10.17C65.9584 10.2433 65.6884 10.2833 65.395 10.29L65.235 9.26ZM73.1322 8.1C72.6256 8.1 72.2089 8 71.8822 7.8C71.5622 7.6 71.3256 7.33333 71.1722 7C71.0189 6.66 70.9422 6.28667 70.9422 5.88C70.9422 5.45333 71.0189 5.04667 71.1722 4.66C71.3322 4.27333 71.5556 3.93 71.8422 3.63C72.1289 3.33 72.4656 3.09667 72.8522 2.93C73.2456 2.75667 73.6756 2.67 74.1422 2.67C74.6489 2.67 75.0622 2.77 75.3822 2.97C75.7089 3.17 75.9489 3.43667 76.1022 3.77C76.2556 4.10333 76.3322 4.47667 76.3322 4.89C76.3322 5.31667 76.2522 5.72333 76.0922 6.11C75.9389 6.49667 75.7189 6.84 75.4322 7.14C75.1456 7.44 74.8056 7.67667 74.4122 7.85C74.0256 8.01667 73.5989 8.1 73.1322 8.1ZM73.3322 6.96C73.5389 6.96 73.7389 6.91333 73.9322 6.82C74.1256 6.72667 74.2956 6.59333 74.4422 6.42C74.5956 6.24667 74.7156 6.04333 74.8022 5.81C74.8956 5.57667 74.9422 5.32333 74.9422 5.05C74.9422 4.80333 74.9022 4.58667 74.8222 4.4C74.7489 4.21333 74.6356 4.07 74.4822 3.97C74.3356 3.86333 74.1556 3.81 73.9422 3.81C73.7356 3.81 73.5356 3.85667 73.3422 3.95C73.1556 4.04333 72.9856 4.17667 72.8322 4.35C72.6789 4.52333 72.5556 4.73 72.4622 4.97C72.3756 5.20333 72.3322 5.45667 72.3322 5.73C72.3322 5.97 72.3689 6.18333 72.4422 6.37C72.5222 6.55667 72.6356 6.70333 72.7822 6.81C72.9356 6.91 73.1189 6.96 73.3322 6.96ZM78.1016 8.1C77.2816 8.1 76.8716 7.67333 76.8716 6.82C76.8716 6.7 76.8783 6.57667 76.8916 6.45C76.9116 6.32333 76.9383 6.18667 76.9716 6.04L77.6716 2.76H79.0016L78.3716 5.75C78.3249 5.94333 78.3016 6.11 78.3016 6.25C78.3016 6.72333 78.5016 6.96 78.9016 6.96C79.0616 6.96 79.2216 6.92667 79.3816 6.86C79.5483 6.78667 79.7149 6.68 79.8816 6.54C80.0483 6.4 80.2016 6.22333 80.3416 6.01L81.0316 2.76H82.3716L81.5816 6.46C81.5749 6.49333 81.5683 6.52667 81.5616 6.56C81.5616 6.58667 81.5616 6.61333 81.5616 6.64C81.5616 6.78 81.6416 6.85333 81.8016 6.86L81.5616 8C81.4416 8.02 81.3349 8.03667 81.2416 8.05C81.1549 8.06333 81.0749 8.07 81.0016 8.07C80.7749 8.07 80.5949 8.02333 80.4616 7.93C80.3283 7.83667 80.2616 7.69333 80.2616 7.5C80.2616 7.46667 80.2616 7.43 80.2616 7.39C80.2683 7.35 80.2749 7.3 80.2816 7.24C80.2949 7.17333 80.3116 7.1 80.3316 7.02C80.0316 7.37333 79.6883 7.64333 79.3016 7.83C78.9216 8.01 78.5216 8.1 78.1016 8.1ZM83.6689 2.76H84.8989L84.6589 3.88C84.9122 3.52 85.1955 3.23667 85.5089 3.03C85.8289 2.81667 86.1422 2.71 86.4489 2.71C86.5155 2.71 86.5655 2.71333 86.5989 2.72C86.6389 2.72 86.6689 2.72333 86.6889 2.73L86.4389 3.92C86.0589 3.92 85.6989 4 85.3589 4.16C85.0255 4.31333 84.7622 4.53667 84.5689 4.83L83.8989 8H82.5589L83.6689 2.76ZM80.0271 30V21.024L77.171 27.336H74.675L71.819 21.024V30H67.139V12.96H72.251L75.923 20.976L79.619 12.96H84.707V30H80.0271ZM95.3034 30.144C94.0074 30.144 92.8314 29.904 91.7754 29.424C90.7194 28.928 89.8074 28.272 89.0394 27.456C88.2874 26.624 87.7034 25.696 87.2874 24.672C86.8874 23.632 86.6874 22.56 86.6874 21.456C86.6874 20.32 86.9034 19.24 87.3354 18.216C87.7674 17.192 88.3674 16.28 89.1354 15.48C89.9194 14.664 90.8394 14.024 91.8954 13.56C92.9674 13.096 94.1354 12.864 95.3994 12.864C96.6954 12.864 97.8714 13.112 98.9274 13.608C99.9834 14.088 100.887 14.744 101.639 15.576C102.391 16.408 102.967 17.344 103.367 18.384C103.783 19.408 103.991 20.464 103.991 21.552C103.991 22.672 103.775 23.744 103.343 24.768C102.927 25.792 102.327 26.712 101.543 27.528C100.775 28.328 99.8634 28.968 98.8074 29.448C97.7514 29.912 96.5834 30.144 95.3034 30.144ZM91.4394 21.504C91.4394 22.08 91.5194 22.64 91.6794 23.184C91.8394 23.712 92.0794 24.192 92.3994 24.624C92.7194 25.04 93.1194 25.376 93.5994 25.632C94.0954 25.872 94.6794 25.992 95.3514 25.992C96.0234 25.992 96.6074 25.864 97.1034 25.608C97.5994 25.352 97.9994 25.008 98.3034 24.576C98.6234 24.128 98.8554 23.64 98.9994 23.112C99.1594 22.568 99.2394 22.016 99.2394 21.456C99.2394 20.88 99.1594 20.328 98.9994 19.8C98.8394 19.272 98.5994 18.8 98.2794 18.384C97.9594 17.952 97.5514 17.616 97.0554 17.376C96.5594 17.136 95.9834 17.016 95.3274 17.016C94.6554 17.016 94.0714 17.144 93.5754 17.4C93.0954 17.656 92.6954 18 92.3754 18.432C92.0554 18.848 91.8154 19.328 91.6554 19.872C91.5114 20.4 91.4394 20.944 91.4394 21.504ZM108.583 12.96L111.919 24.6L115.207 12.96H120.127L114.247 30H109.591L103.639 12.96H108.583ZM133.564 25.92V30H121.42V12.96H133.348V17.04H126.1V19.44H132.292V23.232H126.1V25.92H133.564Z"
+                fill="#F2F2F2"
+              />
+            </svg>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link nav_color"
+                  aria-current="page"
+                  href="./../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_color" href="./service&pricing.html"
+                  >Servises & Pricing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_color" href="./contacts.html"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+
+            <a href="./contacts.html#contact"><button class="main_button btn-primary btn" type="submit">
+                Contact us
+              </button></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="row m-0 my_block block_align">
+      <div class="col p-0">
+        <div class="row service_block_1">
+            <div class="position_blocks">
+          <div class="col text-uppercase text-white fs-1 fw-bold px-5 text_position2">
+            <p>services you can count on</p>
+          </div>
+        </div>
+        </div>
+
+        <div class="row px-5 pt-4">
+          <div class="col text-center fs-2 fw-bold">
+            <p>Services</p>
+          </div>
+        </div>
+        <div class="row px-5">
+          <div class="col text-center fs-5">
+            <p>
+              Are you looking for a reliable logistics partner who shares your
+              ambitions and puts your interests at the forefront? Our experts
+              know how to apply global knowledge locally and guarantee the safe
+              and on-time delivery of any cargo - from oversized to small and
+              fragile. Entrust your cargo to us and devote more time to business
+              development.
+            </p>
+          </div>
+        </div>
+        <div class="row px-5 pt-2">
+          <div class="col text-center fs-5">
+            <p>
+              Our world is dynamically evolving, and solutions that work great
+              today may not be effective tomorrow. We can help you gain a
+              competitive advantage with our extended network of experienced
+              professionals who are ready to quickly respond to changing
+              conditions and adapt their solutions to your needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row m-0 px-5 section_scrooll block_align">
+      <div class="col">
+        <div class="row">
+          <div class="col text-center fs-2 text-uppercase">
+            <p>Our Car Park</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col text-center fs-4">
+            <p>
+              Here you can book not only the services of loaders, but also a car
+              for the removal of construction waste or transportation of almost
+              any cargo without intermediaries.<br /><br />
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col px-5">
+            <div class="row">
+              <div class="col text-center text-uppercase fs-5 text-decoration-underline">
+                <p>Gasel</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img src="./../pics/car2.jpg" width="100%" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <ul class="ps-0 pt-5">
+                  <li>
+                    <p>
+                      <span class="fw-bold">Length / height (m):</span> 4.0 /
+                      2.15 m.
+                    </p>
+                  </li>
+                  <li>
+                    <p><span class="fw-bold">Tonnage:</span> up to 1.5 tons.</p>
+                  </li>
+                  <li>
+                    <p>
+                      <span class="fw-bold">Minimum order:</span> 2 hours from
+                      <span class="facts_color_2">200 UAH/hour</span>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col text-center pt-3">
+               <a href="./contacts.html#contact"> <button
+                  class="main_button btn-primary btn fs-4 py-1 px-5 big_button"
+                  type="submit"
+                >
+                  Contact us
+                </button></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col px-5">
+            <div class="row">
+              <div class="col text-center text-uppercase fs-5 text-decoration-underline">
+                <p>Maxibus</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img src="./../pics/car1.jpeg" width="100%" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <ul class="ps-0 pt-5">
+                  <li>
+                    <p>
+                      <span class="fw-bold">Length / height (m):</span> 1.8 m.
+                    </p>
+                  </li>
+                  <li>
+                    <p><span class="fw-bold">Tonnage:</span> 2.5 tons.</p>
+                  </li>
+                  <li>
+                    <p>
+                      <span class="fw-bold">Minimum order:</span> 2.5 hours from
+                      <span class="facts_color_2">250 UAH/hour</span>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col text-center pt-3">
+             <a href="./contacts.html#contact">   <button
+                  class="main_button btn-primary btn fs-4 py-1 px-5 big_button"
+                  type="submit"
+                >
+                  Contact us
+                </button></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col px-5">
+            <div class="row">
+              <div class="col text-center text-uppercase fs-5 text-decoration-underline">
+                <p>standard</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img src="./../pics/car3.jpg" width="100%" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <ul class="ps-0 pt-5">
+                  <li>
+                    <p>
+                      <span class="fw-bold">Length / height (m):</span> 1.9 m.
+                    </p>
+                  </li>
+                  <li>
+                    <p><span class="fw-bold">Tonnage:</span> 1.5 tons.</p>
+                  </li>
+                  <li>
+                    <p>
+                      <span class="fw-bold">Minimum order:</span> 3 hours from
+                      <span class="facts_color_2">150 UAH/hour</span>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col text-center pt-3">
+                <a href="./contacts.html#contact"><button
+                  class="main_button btn-primary btn fs-4 py-1 px-5 big_button"
+                  type="submit"
+                >
+                  Contact us
+                </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row m-0 facts px-5 section_scrooll block_align">
+      <div class="col">
+        <div class="row">
+          <div class="col">
+            <p class="text-white fs-1 pt-5 fs-2 text-uppercase">Pricing</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="text-white fs-5 pt-2">
+              On this page, you can check out the entire list of our prices for
+              the services of loaders for loading and unloading operations,
+              climbing stairs, assembling and disassembling furniture and other
+              rigging works throughout Kyiv and throughout Ukraine. If you need
+              a consultation, call, we will always help and advise!<br/><br> We
+              value your time. If you need help just fill out the form and we
+              will calculate the cost of transportation for you.
+            </p>
+          </div>
+        </div>
+        <div class="row pt-4">
+          <div class="col pt-3">
+            <div class="row">
+              <div class="col">
+                <p class="text-white fs-3 text-decoration-underline">Apartment moving</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p class="facts_color_2 fs-3">From 760 UAH/hour</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <ul class="nav flex-column fs-5">
+                  <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-white"
+                      ><svg
+                        width="15"
+                        height="12"
+                        viewBox="0 0 15 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 2.04593L4.20863 11.6111L0 5.49078L1.78828 3.89951L4.59404 7.97388L13.5817 0L15 2.04593Z"
+                          fill="#F2F2F2"
+                        />
+                      </svg>
+
+                      Disassembly of furniture</a
+                    >
+                  </li>
+                  <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-white"
+                      ><svg
+                        width="15"
+                        height="12"
+                        viewBox="0 0 15 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 2.04593L4.20863 11.6111L0 5.49078L1.78828 3.89951L4.59404 7.97388L13.5817 0L15 2.04593Z"
+                          fill="#F2F2F2"
+                        />
+                      </svg>
+
+                      Transportation of oversized cargo</a
+                    >
+                  </li>
+                  <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-white"
+                      ><svg
+                        width="15"
+                        height="12"
+                        viewBox="0 0 15 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 2.04593L4.20863 11.6111L0 5.49078L1.78828 3.89951L4.59404 7.97388L13.5817 0L15 2.04593Z"
+                          fill="#F2F2F2"
+                        />
+                      </svg>
+
+                      Movers for loading / unloading</a
+                    >
+                  </li>
+                  <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-white"
+                      ><svg
+                        width="15"
+                        height="12"
+                        viewBox="0 0 15 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 2.04593L4.20863 11.6111L0 5.49078L1.78828 3.89951L4.59404 7.97388L13.5817 0L15 2.04593Z"
+                          fill="#F2F2F2"
+                        />
+                      </svg>
+
+                      Gazel</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col pt-3">
+              <a href="./contacts.html#contact">  <button
+                  class="main_button btn-primary btn fs-4 py-1 px-5 big_button"
+                  type="submit"
+                >
+                  Contact us
+                </button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col pt-3">
+            <div class="row">
+              <div class="col">
+                <p class="text-white fs-3 text-decoration-underline">Moving</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p class="facts_color_2 fs-3">From 840 UAH/hour</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <ul class="nav flex-column fs-5">
+                  <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-white"
+                      ><svg
+                        width="15"
+                        height="12"
+                        viewBox="0 0 15 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 2.04593L4.20863 11.6111L0 5.49078L1.78828 3.89951L4.59404 7.97388L13.5817 0L15 2.04593Z"
+                          fill="#F2F2F2"
+                        />
+                      </svg>
+
+                      Disassembly of furniture</a
+                    >
+                  </li>
+                  <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-white"
+                      ><svg
+                        width="15"
+                        height="12"
+                        viewBox="0 0 15 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 2.04593L4.20863 11.6111L0 5.49078L1.78828 3.89951L4.59404 7.97388L13.5817 0L15 2.04593Z"
+                          fill="#F2F2F2"
+                        />
+                      </svg>
+
+                      Furniture packing (+ additional material)</a
+                    >
+                  </li>
+                  <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-white"
+                      ><svg
+                        width="15"
+                        height="12"
+                        viewBox="0 0 15 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 2.04593L4.20863 11.6111L0 5.49078L1.78828 3.89951L4.59404 7.97388L13.5817 0L15 2.04593Z"
+                          fill="#F2F2F2"
+                        />
+                      </svg>
+
+                      Transportation of oversized cargo</a
+                    >
+                  </li>
+                  <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-white"
+                      ><svg
+                        width="15"
+                        height="12"
+                        viewBox="0 0 15 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 2.04593L4.20863 11.6111L0 5.49078L1.78828 3.89951L4.59404 7.97388L13.5817 0L15 2.04593Z"
+                          fill="#F2F2F2"
+                        />
+                      </svg>
+
+                      Loaders for furniture assembly / disassembly</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col pt-3">
+              <a href="./contacts.html#contact">  <button
+                  class="main_button btn-primary btn fs-4 py-1 px-5 big_button"
+                  type="submit"
+                >
+                  Contact us
+                </button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col pt-3">
+            <div class="row">
+              <div class="col">
+                <p class="text-white fs-3 text-decoration-underline">Rigging works</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p class="facts_color_2 fs-3">From 100 UAH/hour</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <ul class="nav flex-column fs-5">
+                  <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-white"
+                      ><svg
+                        width="15"
+                        height="12"
+                        viewBox="0 0 15 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 2.04593L4.20863 11.6111L0 5.49078L1.78828 3.89951L4.59404 7.97388L13.5817 0L15 2.04593Z"
+                          fill="#F2F2F2"
+                        />
+                      </svg>
+
+                      Movers for any kind of work</a
+                    >
+                  </li>
+                  <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-white"
+                      ><svg
+                        width="15"
+                        height="12"
+                        viewBox="0 0 15 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 2.04593L4.20863 11.6111L0 5.49078L1.78828 3.89951L4.59404 7.97388L13.5817 0L15 2.04593Z"
+                          fill="#F2F2F2"
+                        />
+                      </svg>
+
+                      Carrying oversized heavy loads</a
+                    >
+                  </li>
+                  <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-white">
+                      <svg
+                        width="15"
+                        height="12"
+                        viewBox="0 0 15 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 2.04593L4.20863 11.6111L0 5.49078L1.78828 3.89951L4.59404 7.97388L13.5817 0L15 2.04593Z"
+                          fill="#F2F2F2"
+                        />
+                      </svg>
+                      Transfer the piano</a
+                    >
+                  </li>
+                  <li class="nav-item mb-2">
+                    <a href="#" class="nav-link p-0 text-white">
+                      <svg
+                        width="15"
+                        height="12"
+                        viewBox="0 0 15 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 2.04593L4.20863 11.6111L0 5.49078L1.78828 3.89951L4.59404 7.97388L13.5817 0L15 2.04593Z"
+                          fill="#F2F2F2"
+                        />
+                      </svg>
+                      Moving safes</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col pt-3">
+               <a href="./contacts.html#contact"> <button
+                  class="main_button btn-primary btn fs-4 py-1 px-5 big_button"
+                  type="submit"
+                >
+                  Contact us
+                </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row m-0 facts px-5 table_footer section_scrooll block_align">
+      <div class="col pt-3">
+        <div class="row">
+          <div class="col">
+            <p class="fs-1 text-center text-white text-uppercase pt-4">
+              PACKAGING SERVICES
+            </p>
+          </div>
+        </div>
+
+        <div class="row pt-3">
+          <div class="col">
+            <table class="table table-hover">
+              <thead class="rounded-4">
+                <tr class="table_color">
+                  <th scope="col">Item</th>
+                  <th scope="col">Size</th>
+                  <th scope="col">Price</th>
+                </tr>
+              </thead>
+              <tbody class="table-striped">
+                <tr class="table-primary">
+                  <th>Cardboard box</th>
+                  <th>470mm x 400mm x 430mm</th>
+                  <th>30 UAH</th>
+                </tr>
+
+                <tr class="table-secondary">
+                  <th>Cardboard box</th>
+                  <th>410mm x 230mm x 210mm</th>
+                  <th>17 UAH</th>
+                </tr>
+
+                <tr class="table-primary">
+                  <th>Double-layer corrugated cardboard</th>
+                  <th>100m x 1m</th>
+                  <th>650 UAH</th>
+                </tr>
+
+                <tr class="table-secondary">
+                  <th>Double-layer corrugated cardboard</th>
+                  <th>50m x 1m</th>
+                  <th>430 UAH</th>
+                </tr>
+
+                <tr class="table-primary">
+                  <th>Runway two-layer</th>
+                  <th>100m x 1m, D65</th>
+                  <th>560 UAH</th>
+                </tr>
+
+                <tr class="table-secondary">
+                  <th>Runway two-layer</th>
+                  <th>50m x 0,5 m, D65</th>
+                  <th>350 UAH</th>
+                </tr>
+
+                <tr class="table-primary">
+                  <th>Transparent stretch film</th>
+                  <th>200m x 50cm</th>
+                  <th>150 UAH</th>
+                </tr>
+
+                <tr class="table-secondary">
+                  <th>Transparent stretch film</th>
+                  <th>300m x 50mm</th>
+                  <th>220 UAH</th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="footer_color row big_logo px-5 border-top footer_border border-2 block_align"
+    >
+      <div class="row fs-4 text-white">
+        <div class="col-4">
+          <a href="./../index.html" class="d-flex align-items-center text-decoration-none">
+            <svg
+              width="338"
+              height="100"
+              viewBox="0 0 338 100"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line
+                x1="151.748"
+                y1="-4.2397e-08"
+                x2="151.748"
+                y2="98.6077"
+                stroke="#F2F2F2"
+                stroke-width="2"
+              />
+              <path
+                d="M52.1947 6.45029L28.7708 18.0155L23.424 37.5908L34.2749 20.8105L75.453 13.9459L75.4568 13.9968L75.6362 13.9154L75.1094 9.35477L88.349 13.8753V32.3638L76.637 29.7647L23.424 37.5908L4.07373 42.0678V60.7107L13.2396 59.2801V64.5619L4.07373 64.6049L0 64.6239V89.2579L1.01843 92.4273L8.14747 100H23.424L23.4141 99.9804L23.4314 100L28.5235 95.8809L29.7823 89.2579H57.2868L58.3053 92.4273L65.4343 100H80.7108L85.8029 95.8809L87.0618 89.2579H88.349H96.4965V5.40741L90.6405 0L52.1947 6.45029ZM83.1496 70.1306L83.9214 75.346V75.8862V81.1413V82.2327L82.9566 87.3089L81.0271 88.8697L79.2904 86.8969L78.5186 81.6814V81.1413V75.8862V74.7948L79.4131 70.0886L79.4834 69.7186L81.4129 68.1577L82.7689 69.6981L83.1496 70.1306ZM70.7811 64.2926L52.1947 64.3796L52.2035 57.2915L76.637 59.1135L70.7811 64.2926Z"
+                fill="#D89A2B"
+              />
+              <path
+                d="M102.353 14.9941V89.2578H110.655L111.151 90.8004L115.271 95.1771H124.1L127.043 92.7965L127.716 89.2578H136.725V47.7637V47.2236L102.353 14.9941ZM125.51 77.9138L125.956 80.9281V81.2403V84.2775V84.9083L125.398 87.8422L124.283 88.7443L123.279 87.604L122.833 84.5897V84.2775V81.2403V80.6095L123.35 77.8895L123.391 77.6756L124.506 76.7735L125.29 77.6638L125.51 77.9138Z"
+                fill="#D89A2B"
+              />
+              <path
+                d="M157.871 17.268C158.351 17.232 158.741 17.172 159.041 17.088C159.353 17.004 159.623 16.866 159.851 16.674C160.079 16.494 160.313 16.236 160.553 15.9L161.075 15.198L159.509 5.568H161.975L162.785 12.912L163.397 11.904C163.769 11.292 164.093 10.722 164.369 10.194C164.657 9.654 164.903 9.138 165.107 8.646C165.323 8.142 165.509 7.638 165.665 7.134C165.821 6.63 165.965 6.108 166.097 5.568H168.437C168.281 6.144 168.107 6.69 167.915 7.206C167.723 7.71 167.495 8.238 167.231 8.79C166.967 9.342 166.631 9.966 166.223 10.662C165.827 11.358 165.329 12.186 164.729 13.146L163.289 15.468C162.869 16.14 162.461 16.704 162.065 17.16C161.681 17.628 161.285 18.006 160.877 18.294C160.481 18.582 160.061 18.786 159.617 18.906C159.173 19.038 158.687 19.11 158.159 19.122L157.871 17.268ZM172.086 15.18C171.174 15.18 170.424 15 169.836 14.64C169.26 14.28 168.834 13.8 168.558 13.2C168.282 12.588 168.144 11.916 168.144 11.184C168.144 10.416 168.282 9.684 168.558 8.988C168.846 8.292 169.248 7.674 169.764 7.134C170.28 6.594 170.886 6.174 171.582 5.874C172.29 5.562 173.064 5.406 173.904 5.406C174.816 5.406 175.56 5.586 176.136 5.946C176.724 6.306 177.156 6.786 177.432 7.386C177.708 7.986 177.846 8.658 177.846 9.402C177.846 10.17 177.702 10.902 177.414 11.598C177.138 12.294 176.742 12.912 176.226 13.452C175.71 13.992 175.098 14.418 174.39 14.73C173.694 15.03 172.926 15.18 172.086 15.18ZM172.446 13.128C172.818 13.128 173.178 13.044 173.526 12.876C173.874 12.708 174.18 12.468 174.444 12.156C174.72 11.844 174.936 11.478 175.092 11.058C175.26 10.638 175.344 10.182 175.344 9.69C175.344 9.246 175.272 8.856 175.128 8.52C174.996 8.184 174.792 7.926 174.516 7.746C174.252 7.554 173.928 7.458 173.544 7.458C173.172 7.458 172.812 7.542 172.464 7.71C172.128 7.878 171.822 8.118 171.546 8.43C171.27 8.742 171.048 9.114 170.88 9.546C170.724 9.966 170.646 10.422 170.646 10.914C170.646 11.346 170.712 11.73 170.844 12.066C170.988 12.402 171.192 12.666 171.456 12.858C171.732 13.038 172.062 13.128 172.446 13.128ZM181.031 15.18C179.555 15.18 178.817 14.412 178.817 12.876C178.817 12.66 178.829 12.438 178.853 12.21C178.889 11.982 178.937 11.736 178.997 11.472L180.257 5.568H182.651L181.517 10.95C181.433 11.298 181.391 11.598 181.391 11.85C181.391 12.702 181.751 13.128 182.471 13.128C182.759 13.128 183.047 13.068 183.335 12.948C183.635 12.816 183.935 12.624 184.235 12.372C184.535 12.12 184.811 11.802 185.063 11.418L186.305 5.568H188.717L187.295 12.228C187.283 12.288 187.271 12.348 187.259 12.408C187.259 12.456 187.259 12.504 187.259 12.552C187.259 12.804 187.403 12.936 187.691 12.948L187.259 15C187.043 15.036 186.851 15.066 186.683 15.09C186.527 15.114 186.383 15.126 186.251 15.126C185.843 15.126 185.519 15.042 185.279 14.874C185.039 14.706 184.919 14.448 184.919 14.1C184.919 14.04 184.919 13.974 184.919 13.902C184.931 13.83 184.943 13.74 184.955 13.632C184.979 13.512 185.009 13.38 185.045 13.236C184.505 13.872 183.887 14.358 183.191 14.694C182.507 15.018 181.787 15.18 181.031 15.18ZM191.052 5.568H193.266L192.834 7.584C193.29 6.936 193.8 6.426 194.364 6.054C194.94 5.67 195.504 5.478 196.056 5.478C196.176 5.478 196.266 5.484 196.326 5.496C196.398 5.496 196.452 5.502 196.488 5.514L196.038 7.656C195.354 7.656 194.706 7.8 194.094 8.088C193.494 8.364 193.02 8.766 192.672 9.294L191.466 15H189.054L191.052 5.568ZM180.191 49V35.536L175.907 45.004H172.163L167.879 35.536V49H160.859V23.44H168.527L174.035 35.464L179.579 23.44H187.211V49H180.191ZM203.105 49.216C201.161 49.216 199.397 48.856 197.813 48.136C196.229 47.392 194.861 46.408 193.709 45.184C192.581 43.936 191.705 42.544 191.081 41.008C190.481 39.448 190.181 37.84 190.181 36.184C190.181 34.48 190.505 32.86 191.153 31.324C191.801 29.788 192.701 28.42 193.853 27.22C195.029 25.996 196.409 25.036 197.993 24.34C199.601 23.644 201.353 23.296 203.249 23.296C205.193 23.296 206.957 23.668 208.541 24.412C210.125 25.132 211.481 26.116 212.609 27.364C213.737 28.612 214.601 30.016 215.201 31.576C215.825 33.112 216.137 34.696 216.137 36.328C216.137 38.008 215.813 39.616 215.165 41.152C214.541 42.688 213.641 44.068 212.465 45.292C211.313 46.492 209.945 47.452 208.361 48.172C206.777 48.868 205.025 49.216 203.105 49.216ZM197.309 36.256C197.309 37.12 197.429 37.96 197.669 38.776C197.909 39.568 198.269 40.288 198.749 40.936C199.229 41.56 199.829 42.064 200.549 42.448C201.293 42.808 202.169 42.988 203.177 42.988C204.185 42.988 205.061 42.796 205.805 42.412C206.549 42.028 207.149 41.512 207.605 40.864C208.085 40.192 208.433 39.46 208.649 38.668C208.889 37.852 209.009 37.024 209.009 36.184C209.009 35.32 208.889 34.492 208.649 33.7C208.409 32.908 208.049 32.2 207.569 31.576C207.089 30.928 206.477 30.424 205.733 30.064C204.989 29.704 204.125 29.524 203.141 29.524C202.133 29.524 201.257 29.716 200.513 30.1C199.793 30.484 199.193 31 198.713 31.648C198.233 32.272 197.873 32.992 197.633 33.808C197.417 34.6 197.309 35.416 197.309 36.256ZM223.025 23.44L228.029 40.9L232.961 23.44H240.341L231.521 49H224.537L215.609 23.44H223.025ZM260.497 42.88V49H242.281V23.44H260.173V29.56H249.301V33.16H258.589V38.848H249.301V42.88H260.497Z"
+                fill="#F2F2F2"
+              />
+              <path
+                d="M161.175 77V61.891H163.147V77H161.175ZM161.175 58.73V55.83H163.147V58.73H161.175ZM180.337 77H178.365V68.561C178.365 66.7823 178.104 65.487 177.582 64.675C177.06 63.8437 176.239 63.428 175.117 63.428C174.344 63.428 173.58 63.6213 172.826 64.008C172.072 64.3753 171.405 64.8877 170.825 65.545C170.265 66.183 169.859 66.9177 169.607 67.749V77H167.635V61.891H169.433V65.313C169.839 64.5783 170.371 63.9403 171.028 63.399C171.686 62.8383 172.43 62.4033 173.261 62.094C174.093 61.7847 174.953 61.63 175.842 61.63C176.674 61.63 177.379 61.7847 177.959 62.094C178.539 62.4033 179.003 62.848 179.351 63.428C179.699 63.9887 179.951 64.675 180.105 65.487C180.26 66.2797 180.337 67.169 180.337 68.155V77ZM198.662 77.29C197.58 77.29 196.574 77.087 195.646 76.681C194.738 76.2557 193.945 75.6853 193.268 74.97C192.611 74.2353 192.099 73.404 191.731 72.476C191.364 71.5287 191.18 70.533 191.18 69.489C191.18 68.4063 191.364 67.401 191.731 66.473C192.099 65.5257 192.621 64.6943 193.297 63.979C193.974 63.2443 194.767 62.674 195.675 62.268C196.603 61.8427 197.609 61.63 198.691 61.63C199.774 61.63 200.77 61.8427 201.678 62.268C202.587 62.674 203.38 63.2443 204.056 63.979C204.733 64.6943 205.255 65.5257 205.622 66.473C205.99 67.401 206.173 68.4063 206.173 69.489C206.173 70.533 205.99 71.5287 205.622 72.476C205.255 73.404 204.733 74.2353 204.056 74.97C203.399 75.6853 202.606 76.2557 201.678 76.681C200.77 77.087 199.764 77.29 198.662 77.29ZM193.181 69.518C193.181 70.6393 193.423 71.664 193.906 72.592C194.409 73.5007 195.076 74.2257 195.907 74.767C196.739 75.289 197.657 75.55 198.662 75.55C199.668 75.55 200.586 75.2793 201.417 74.738C202.249 74.1967 202.916 73.462 203.418 72.534C203.921 71.5867 204.172 70.562 204.172 69.46C204.172 68.3387 203.921 67.314 203.418 66.386C202.916 65.458 202.249 64.7233 201.417 64.182C200.586 63.6407 199.668 63.37 198.662 63.37C197.657 63.37 196.739 63.6503 195.907 64.211C195.095 64.7717 194.438 65.516 193.935 66.444C193.433 67.3527 193.181 68.3773 193.181 69.518ZM209.471 70.765V61.891H211.443V70.417C211.443 72.1377 211.733 73.4233 212.313 74.274C212.913 75.1247 213.792 75.55 214.952 75.55C215.726 75.55 216.47 75.3857 217.185 75.057C217.92 74.709 218.568 74.2257 219.128 73.607C219.689 72.969 220.114 72.2343 220.404 71.403V61.891H222.376V74.622C222.376 74.8927 222.434 75.0957 222.55 75.231C222.666 75.347 222.84 75.4147 223.072 75.434V77C222.84 77.0193 222.657 77.029 222.521 77.029C222.386 77.0483 222.26 77.058 222.144 77.058C221.758 77.0193 221.419 76.8647 221.129 76.594C220.859 76.3233 220.714 75.9947 220.694 75.608L220.636 73.578C219.979 74.738 219.08 75.6467 217.939 76.304C216.818 76.9613 215.6 77.29 214.285 77.29C212.7 77.29 211.501 76.739 210.689 75.637C209.877 74.535 209.471 72.911 209.471 70.765ZM234.52 63.631C233.205 63.6697 232.045 64.037 231.04 64.733C230.054 65.429 229.358 66.386 228.952 67.604V77H226.98V61.891H228.836V65.516C229.358 64.4527 230.044 63.5923 230.895 62.935C231.765 62.2777 232.683 61.9103 233.65 61.833C233.843 61.8137 234.008 61.804 234.143 61.804C234.298 61.804 234.423 61.8137 234.52 61.833V63.631ZM256.851 77H254.879V68.561C254.879 66.8597 254.579 65.5837 253.98 64.733C253.381 63.863 252.52 63.428 251.399 63.428C250.664 63.428 249.93 63.6213 249.195 64.008C248.48 64.3753 247.842 64.8877 247.281 65.545C246.74 66.183 246.353 66.9177 246.121 67.749V77H244.149V55.83H246.121V65.313C246.72 64.1917 247.552 63.3023 248.615 62.645C249.698 61.9683 250.848 61.63 252.066 61.63C252.936 61.63 253.671 61.7847 254.27 62.094C254.889 62.4033 255.382 62.8577 255.749 63.457C256.136 64.037 256.416 64.7233 256.59 65.516C256.764 66.2893 256.851 67.169 256.851 68.155V77ZM259.983 72.65C259.983 71.7027 260.254 70.8907 260.795 70.214C261.337 69.518 262.081 68.9863 263.028 68.619C263.995 68.2323 265.107 68.039 266.363 68.039C267.098 68.039 267.862 68.097 268.654 68.213C269.447 68.329 270.153 68.503 270.771 68.735V67.459C270.771 66.183 270.394 65.168 269.64 64.414C268.886 63.66 267.842 63.283 266.508 63.283C265.696 63.283 264.894 63.4377 264.101 63.747C263.328 64.037 262.516 64.472 261.665 65.052L260.911 63.66C261.897 62.9833 262.864 62.4807 263.811 62.152C264.759 61.804 265.725 61.63 266.711 61.63C268.567 61.63 270.037 62.1617 271.119 63.225C272.202 64.2883 272.743 65.7577 272.743 67.633V74.622C272.743 74.8927 272.801 75.0957 272.917 75.231C273.033 75.347 273.217 75.4147 273.468 75.434V77C273.256 77.0193 273.072 77.0387 272.917 77.058C272.763 77.0773 272.647 77.0773 272.569 77.058C272.086 77.0387 271.719 76.884 271.467 76.594C271.216 76.304 271.081 75.9947 271.061 75.666L271.032 74.564C270.356 75.434 269.476 76.1107 268.393 76.594C267.311 77.058 266.209 77.29 265.087 77.29C264.121 77.29 263.241 77.087 262.448 76.681C261.675 76.2557 261.066 75.695 260.621 74.999C260.196 74.2837 259.983 73.5007 259.983 72.65ZM270.104 73.81C270.317 73.5393 270.481 73.2783 270.597 73.027C270.713 72.7757 270.771 72.5533 270.771 72.36V70.156C270.114 69.9047 269.428 69.7113 268.712 69.576C268.016 69.4407 267.311 69.373 266.595 69.373C265.184 69.373 264.043 69.6533 263.173 70.214C262.303 70.7747 261.868 71.5383 261.868 72.505C261.868 73.0657 262.013 73.5973 262.303 74.1C262.593 74.5833 263.019 74.9893 263.579 75.318C264.14 75.6273 264.797 75.782 265.551 75.782C266.499 75.782 267.378 75.5983 268.19 75.231C269.022 74.8637 269.66 74.39 270.104 73.81ZM289.851 77H287.879V68.561C287.879 66.7823 287.618 65.487 287.096 64.675C286.574 63.8437 285.752 63.428 284.631 63.428C283.858 63.428 283.094 63.6213 282.34 64.008C281.586 64.3753 280.919 64.8877 280.339 65.545C279.778 66.183 279.372 66.9177 279.121 67.749V77H277.149V61.891H278.947V65.313C279.353 64.5783 279.885 63.9403 280.542 63.399C281.199 62.8383 281.944 62.4033 282.775 62.094C283.606 61.7847 284.467 61.63 285.356 61.63C286.187 61.63 286.893 61.7847 287.473 62.094C288.053 62.4033 288.517 62.848 288.865 63.428C289.213 63.9887 289.464 64.675 289.619 65.487C289.774 66.2797 289.851 67.169 289.851 68.155V77ZM293.186 69.489C293.186 68.0583 293.476 66.7533 294.056 65.574C294.656 64.3753 295.477 63.4183 296.521 62.703C297.565 61.9877 298.754 61.63 300.088 61.63C301.345 61.63 302.466 61.9683 303.452 62.645C304.458 63.3023 305.241 64.1047 305.801 65.052V55.83H307.773V74.622C307.773 74.8927 307.831 75.0957 307.947 75.231C308.063 75.347 308.237 75.4147 308.469 75.434V77C308.083 77.058 307.783 77.0773 307.57 77.058C307.164 77.0387 306.807 76.8743 306.497 76.565C306.188 76.2557 306.033 75.9173 306.033 75.55V74.071C305.434 75.057 304.622 75.84 303.597 76.42C302.573 77 301.509 77.29 300.407 77.29C299.363 77.29 298.397 77.0773 297.507 76.652C296.637 76.2267 295.874 75.6467 295.216 74.912C294.578 74.1773 294.076 73.346 293.708 72.418C293.36 71.4707 293.186 70.4943 293.186 69.489ZM305.801 71.809V67.14C305.55 66.444 305.144 65.8157 304.583 65.255C304.023 64.675 303.385 64.2207 302.669 63.892C301.973 63.544 301.277 63.37 300.581 63.37C299.769 63.37 299.035 63.544 298.377 63.892C297.72 64.2207 297.15 64.675 296.666 65.255C296.202 65.835 295.845 66.4923 295.593 67.227C295.342 67.9617 295.216 68.7157 295.216 69.489C295.216 70.301 295.352 71.0743 295.622 71.809C295.912 72.5437 296.318 73.201 296.84 73.781C297.362 74.3417 297.962 74.7767 298.638 75.086C299.315 75.3953 300.05 75.55 300.842 75.55C301.345 75.55 301.867 75.4533 302.408 75.26C302.95 75.0667 303.462 74.8057 303.945 74.477C304.448 74.129 304.864 73.723 305.192 73.259C305.521 72.795 305.724 72.3117 305.801 71.809ZM317.345 77.29C316.108 77.29 314.958 77.087 313.894 76.681C312.831 76.275 311.913 75.6563 311.139 74.825L311.951 73.433C312.802 74.2257 313.653 74.8057 314.503 75.173C315.373 75.521 316.292 75.695 317.258 75.695C318.438 75.695 319.395 75.463 320.129 74.999C320.864 74.5157 321.231 73.8293 321.231 72.94C321.231 72.3407 321.048 71.8863 320.68 71.577C320.332 71.2483 319.82 70.9873 319.143 70.794C318.486 70.5813 317.693 70.359 316.765 70.127C315.721 69.837 314.842 69.5373 314.126 69.228C313.43 68.8993 312.899 68.4933 312.531 68.01C312.183 67.5073 312.009 66.8597 312.009 66.067C312.009 65.081 312.251 64.269 312.734 63.631C313.237 62.9737 313.914 62.4807 314.764 62.152C315.634 61.804 316.601 61.63 317.664 61.63C318.824 61.63 319.849 61.8137 320.738 62.181C321.628 62.5483 322.353 63.0607 322.913 63.718L321.956 65.052C321.415 64.4333 320.767 63.979 320.013 63.689C319.279 63.3797 318.457 63.225 317.548 63.225C316.93 63.225 316.34 63.312 315.779 63.486C315.219 63.6407 314.755 63.9113 314.387 64.298C314.039 64.6653 313.865 65.1777 313.865 65.835C313.865 66.3763 314.001 66.8017 314.271 67.111C314.542 67.401 314.948 67.6523 315.489 67.865C316.031 68.0583 316.698 68.271 317.49 68.503C318.631 68.8123 319.627 69.1313 320.477 69.46C321.328 69.7693 321.985 70.1753 322.449 70.678C322.913 71.1807 323.145 71.8863 323.145 72.795C323.145 74.2063 322.614 75.3083 321.55 76.101C320.487 76.8937 319.085 77.29 317.345 77.29Z"
+                fill="#F2F2F2"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="col-4">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white"
+                ><svg
+                  width="16"
+                  height="24"
+                  viewBox="0 0 16 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 0C3.802 0 0 3.403 0 7.602C0 11.8 3.469 16.812 8 24C12.531 16.812 16 11.8 16 7.602C16 3.403 12.199 0 8 0ZM8 11C6.343 11 5 9.657 5 8C5 6.343 6.343 5 8 5C9.657 5 11 6.343 11 8C11 9.657 9.657 11 8 11Z"
+                    fill="#F2F2F2"
+                  />
+                </svg>
+
+                Pushkinska 50/52</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white"
+                ><svg
+                  width="24"
+                  height="17"
+                  viewBox="0 0 24 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 0V16.9775H24V0H0ZM6.623 7.47861L2 12.8661V3.94539L6.623 7.47861V7.47861ZM2.482 1.88639H21.517L12 9.16127L2.482 1.88639V1.88639ZM8.176 8.66609L12 11.5891L15.83 8.66137L21.442 15.0911H2.663L8.176 8.66609ZM17.384 7.47389L22 3.94539V12.7624L17.384 7.47389Z"
+                    fill="#F2F2F2"
+                  />
+                </svg>
+                makeyourmove@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-4">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white"
+                ><svg
+                  width="16"
+                  height="24"
+                  viewBox="0 0 16 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 22.621L12.479 15.826C12.471 15.83 10.505 16.796 10.415 16.837C8.17498 17.923 3.61598 9.017 5.80598 7.843L7.88898 6.817L4.39598 0L2.28998 1.039C-4.91202 4.794 6.52298 27.021 13.89 23.654C14.011 23.599 15.992 22.625 16 22.621Z"
+                    fill="#F2F2F2"
+                  /></svg
+                >(090)-111-2345</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-white"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_753_106)">
+                    <path
+                      d="M12 2C17.514 2 22 6.486 22 12C22 17.514 17.514 22 12 22C6.486 22 2 17.514 2 12C2 6.486 6.486 2 12 2ZM12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM17.848 12.459C18.05 12.497 18.05 12.792 17.849 12.831C15.942 13.192 11.804 13.942 11.302 13.942C10.583 13.942 10.001 13.36 10.001 12.641C10.001 12.129 10.771 7.194 11.126 5.196C11.16 5.004 11.438 5.015 11.469 5.21L12.454 11.448L17.848 12.459Z"
+                      fill="#F2F2F2"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_753_106">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                Mon - Sat, 09:00 - 20:00</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p class="text-muted text-center font fs-6 p-0 m-0">
+            © 2020 All Rights Reserved Terms of Use and Privacy Policy
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="/docs/5.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
